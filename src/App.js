@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+// import TodoApp from './components/todo/TodoApp';
+
+// import Counter from './components/1Counter/CounterApp';
+// import ConditionalApp from './components/2Conditional/ConditionalApp';
+import ErrorApp from './components/3Error/ErrorApp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <TodoApp /> */}
+      {/* <Counter /> */}
+      {/* <ConditionalApp /> */}
+      <ErrorApp />
     </div>
   );
 }
