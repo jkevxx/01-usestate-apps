@@ -39,23 +39,22 @@ function ShoppingCartApp() {
         Add
       </button>
 
-      <button
-        onClick={() =>
-          updateProduct({
-            id: 1,
-            title: "New title",
-            description: "new description",
-          })
-        }
-      >
-        Update
-      </button>
-
       {cart.map((product) => (
         <div key={product.id}>
           <p>{product.title}</p>
           <p>{product.description}</p>
           <button onClick={() => deleteProduct(product.id)}>Delete</button>
+          <button
+            onClick={() =>
+              updateProduct({
+                id: product.id,
+                title: "New title",
+                description: "new description",
+              })
+            }
+          >
+            Update
+          </button>
           <br />
         </div>
       ))}
