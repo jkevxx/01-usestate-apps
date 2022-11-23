@@ -1,6 +1,7 @@
 import "./App.css";
 // import ShoppingCartApp from "./components/5ShoppingCart/ShoppingCartApp";
-import Forms from "./components/6Forms/Forms";
+// import Forms from "./components/6Forms/Forms";
+import SimpleForm from "./components/6Forms/SimpleForm";
 // import TodoApp from "./components/todo/TodoApp";
 
 // import Counter from "./components/1Counter/CounterApp";
@@ -17,7 +18,8 @@ function App() {
       {/* <ErrorApp /> */}
       {/* <ProductApp /> */}
       {/* <ShoppingCartApp /> */}
-      <Forms />
+      {/* <Forms /> */}
+      <SimpleForm />
     </div>
   );
 }
